@@ -1,20 +1,33 @@
 {
   "interactionModel": {
     "languageModel": {
+      "invocationName": "boris martellone",
       "intents": [
         {
           "slots": [],
           "name": "StiCazziIntent",
           "samples": [
+            "cosa ne pensa",
+            "cosa ne pensi",
+            "cosa ne pensa di questa cosa",
+            "cosa ne pensi di questa cosa",
+            "cosa ne pensi di questo",
+            "che ne pensa",
+            "che ne pensi",
             "un parere",
             "un pensiero",
             "un'opinione",
             "un commento",
-            "cosa ne pensi di questa cosa",
-            "cosa ne pensi di questo",
-            "cosa ne pensi",
-            "cosa ne pensa di questa cosa",
-            "cosa ne pensa"
+            "che cosa ne pensa",
+            "che cosa ne pensi",
+            "cosa ne dice",
+            "cosa ne dici",
+            "che ne dice",
+            "che ne dici",
+            "cosa pensa di questa cosa",
+            "la sua opinione",
+            "un suo parere",
+            "cosa dice"
           ]
         },
         {
@@ -23,6 +36,18 @@
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
           "samples": []
         }
       ],

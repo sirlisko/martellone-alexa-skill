@@ -1,10 +1,12 @@
 # Martellone Alexa Skill
 
-> Alexa, ask Martellone what does he think about it
+> Alexa, ask Martellone what he thinks about it
+>
+> Alexa, chiedi a Boris Martellone cosa ne pensa
 
 ![image](./skill-package/assets/martellone-icon-small.png)
 
-Skill created as a tribute to the mythological [Nando Martellone](https://www.youtube.com/watch?v=l0kKxkulOiI), character of the TV Show [Boris](<https://en.wikipedia.org/wiki/Boris_(TV_series)>).
+A tribute to the legendary [Nando Martellone](https://www.youtube.com/watch?v=l0kKxkulOiI), a character from the Italian TV show [Boris](<https://en.wikipedia.org/wiki/Boris_(TV_series)>).
 
 ## Link to the Store
 

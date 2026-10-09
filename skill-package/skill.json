@@ -30,9 +30,10 @@
       "isAvailableWorldwide": true,
       "locales": {
         "en-GB": {
-          "description": "Skill created as a tribute to the mythological Nando Martellone, character of Boris (Italian TV Shows).\nAsk Martellone \"what do you think\" and he will reply with his most famous punch line.",
+          "description": "A tribute to the legendary Nando Martellone, a character from Boris, the Italian TV show.\nAsk Martellone what he thinks about it, and he will reply with his most famous catchphrase.",
           "examplePhrases": [
-            "Alexa, ask Martellone what does he think about it"
+            "Alexa, ask Martellone what he thinks about it",
+            "Alexa, ask Martellone what do you think"
           ],
           "keywords": [
             "boris",
@@ -42,12 +43,13 @@
           "largeIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon.png",
           "name": "Martellone Boris",
           "smallIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon-small.png",
-          "summary": "Ask Boris' Martellone what does he think about stuff. He will reply with his most famous punch line."
+          "summary": "Ask Martellone from Boris what he thinks about anything. He'll reply with his most famous catchphrase."
         },
         "it-IT": {
           "description": "Skill pensata per tutti gli amanti di Nando Martellone, interpretato dal mitico Massimiliano Bruno, nella serie TV Boris.",
           "examplePhrases": [
-            "Alexa, domanda a Boris Martellone cosa ne pensa"
+            "Alexa, chiedi a Boris Martellone cosa ne pensa",
+            "Alexa, apri Boris Martellone"
           ],
           "keywords": [
             "boris",
@@ -57,10 +59,10 @@
           "largeIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon.png",
           "name": "Martellone Boris",
           "smallIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon-small.png",
-          "summary": "Chiedi a Martellone cosa ne pensa, ti risponderà cosa la sua più tipica delle espressioni"
+          "summary": "Chiedi a Martellone cosa ne pensa: ti risponderà con la sua espressione più tipica."
         }
       },
-      "testingInstructions": "Nothing specifical, it just plays an audio"
+      "testingInstructions": "No account linking or setup needed. Say \"Alexa, ask Martellone what he thinks about it\" (en-GB) or \"Alexa, chiedi a Boris Martellone cosa ne pensa\" (it-IT): the skill plays a short audio clip and ends the session. Help, Stop and Cancel are supported."
     }
   }
 }

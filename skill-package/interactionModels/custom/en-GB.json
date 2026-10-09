@@ -1,25 +1,59 @@
 {
   "interactionModel": {
     "languageModel": {
+      "invocationName": "martellone what",
       "intents": [
         {
           "name": "StiCazziIntent",
           "samples": [
-            "do you think about this",
-            "do you think about it",
-            "does he think about this",
-            "does he think about it",
+            "he thinks",
+            "he thinks about it",
+            "he thinks about this",
             "do you think",
+            "do you think about it",
+            "do you think about this",
             "does he think",
-            "you think",
-            "is his opinion"
+            "does he think about it",
+            "his opinion is",
+            "is his opinion",
+            "what do you think",
+            "what do you think about it",
+            "what do you think about this",
+            "what he thinks",
+            "what he thinks about it",
+            "what is your opinion",
+            "he thinks of it",
+            "do you think of it",
+            "do you make of it",
+            "does he make of it",
+            "he makes of it",
+            "do you say",
+            "does he say about it",
+            "he says about it",
+            "his take is",
+            "what do you make of it",
+            "what do you say",
+            "what is your take"
           ]
         },
         {
-          "name": "AMAZON.StopIntent"
+          "name": "AMAZON.StopIntent",
+          "samples": []
         },
         {
           "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
           "samples": []
         }
       ]
