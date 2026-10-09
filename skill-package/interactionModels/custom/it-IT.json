@@ -1,0 +1,32 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [],
+          "name": "StiCazziIntent",
+          "samples": [
+            "un parere",
+            "un pensiero",
+            "un'opinione",
+            "un commento",
+            "cosa ne pensi di questa cosa",
+            "cosa ne pensi di questo",
+            "cosa ne pensi",
+            "cosa ne pensa di questa cosa",
+            "cosa ne pensa"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
-    "target": "es6",
-    "lib": ["esnext"],
-    "moduleResolution": "node"
+    "target": "es2024",
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["node"]
   },
-  "exclude": ["node_modules"]
+  "include": ["lambda"]
 }

@@ -1,23 +1,27 @@
 {
-  "name": "martelloneskill",
-  "version": "1.0.0",
-  "description": "Alexa example using Typescript",
-  "main": "handler.js",
+  "name": "martellone-alexa-skill",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Alexa skill: ask Nando Martellone what he thinks about it",
+  "author": "Luca Lischetti",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --dir lambda",
+    "deploy": "ask deploy"
   },
   "dependencies": {
-    "ask-sdk": "^2.3.0",
-    "source-map-support": "^0.5.10"
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.86.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.18",
-    "serverless-alexa-skills": "^0.1.0",
-    "serverless-webpack": "^5.2.0",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.2.4",
-    "webpack": "^4.29.0"
-  },
-  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
-  "license": "MIT"
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
+  }
 }

@@ -1,0 +1,66 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:620621906042:function:martelloneskill-dev-alexa"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "locales": {
+        "it-IT": {},
+        "en-GB": {}
+      },
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "NOVELTY",
+      "distributionCountries": [],
+      "distributionMode": "PUBLIC",
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-GB": {
+          "description": "Skill created as a tribute to the mythological Nando Martellone, character of Boris (Italian TV Shows).\nAsk Martellone \"what do you think\" and he will reply with his most famous punch line.",
+          "examplePhrases": [
+            "Alexa, ask Martellone what does he think about it"
+          ],
+          "keywords": [
+            "boris",
+            "martellone",
+            "sticazzi"
+          ],
+          "largeIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon.png",
+          "name": "Martellone Boris",
+          "smallIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon-small.png",
+          "summary": "Ask Boris' Martellone what does he think about stuff. He will reply with his most famous punch line."
+        },
+        "it-IT": {
+          "description": "Skill pensata per tutti gli amanti di Nando Martellone, interpretato dal mitico Massimiliano Bruno, nella serie TV Boris.",
+          "examplePhrases": [
+            "Alexa, domanda a Boris Martellone cosa ne pensa"
+          ],
+          "keywords": [
+            "boris",
+            "martellone",
+            "sticazzi"
+          ],
+          "largeIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon.png",
+          "name": "Martellone Boris",
+          "smallIconUri": "https://github.com/sirLisko/martellone-alexa-skill/raw/main/skill-package/assets/martellone-icon-small.png",
+          "summary": "Chiedi a Martellone cosa ne pensa, ti risponderà cosa la sua più tipica delle espressioni"
+        }
+      },
+      "testingInstructions": "Nothing specifical, it just plays an audio"
+    }
+  }
+}

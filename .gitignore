@@ -9,3 +9,5 @@ jspm_packages
 .webpack
 
 .env
+# ASK CLI deploy state and build output
+.ask

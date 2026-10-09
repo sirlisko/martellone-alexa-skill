@@ -1,0 +1,33 @@
+{
+  "askcliResourcesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillMetadata": {
+        "src": "./skill-package"
+      },
+      "code": {
+        "default": {
+          "src": "./lambda"
+        }
+      },
+      "skillInfrastructure": {
+        "type": "@ask-cli/lambda-deployer",
+        "userConfig": {
+          "runtime": "nodejs24.x",
+          "handler": "index.handler",
+          "awsRegion": "eu-west-1",
+          "sourceLambda": {
+            "arn": "arn:aws:lambda:eu-west-1:620621906042:function:martelloneskill-dev-alexa"
+          },
+          "lambda": {
+            "memorySize": 128,
+            "timeout": 8,
+            "environmentVariables": {
+              "NODE_OPTIONS": "--enable-source-maps"
+            }
+          }
+        }
+      }
+    }
+  }
+}

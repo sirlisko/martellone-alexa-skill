@@ -1,0 +1,28 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "StiCazziIntent",
+          "samples": [
+            "do you think about this",
+            "do you think about it",
+            "does he think about this",
+            "does he think about it",
+            "do you think",
+            "does he think",
+            "you think",
+            "is his opinion"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ]
+    }
+  }
+}
